@@ -1,0 +1,41 @@
+:root{
+    --primary: rgba(196, 28, 28, 0.767);
+    --font: monospace;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    height:100vh;
+    width: 100vw;
+    display:grid;
+    place-items: center;
+    place-content: center;
+    font: 1em sans-serif;
+    margin:0;
+    background: linear-gradient(200deg, rgba(255, 0, 0, 0.322), rgba(0, 0, 255, 0.26)),
+                url('./images/pexels-pixabay-163314.jpg') no-repeat center center / cover;
+}
+.btn{
+   background-color:  var(--primary);
+   padding: 5px 20px;
+   font-family: var(--font);
+   cursor: pointer;
+   border-radius: 10px;
+   border:1px solid #fff;
+   color:#fff;
+
+}
+.save{
+    background-color: green;
+    border:none;
+    margin-top: 5px;
+    padding: 5px 34px;
+    border-radius: 10px;
+    color:#fff;
+    cursor: pointer; 
+    margin-bottom: 5px;
+}
